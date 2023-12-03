@@ -1,0 +1,135 @@
+.base {
+  margin-right:64px;
+  margin-left:64px;
+}
+hr {
+  border: 2px solid #2094f3;
+}
+.md-typeset h1 {
+  color:#2094f3;
+  margin-right:64px;
+  margin-left:64px;
+  margin-bottom:160px;
+}
+.md-typeset h2 {
+  color:#2094f3;
+  font-size:24px;
+  margin-top:160px;
+  margin-bottom:0;
+}
+.md-typeset h3 {
+  color:#2094f3;
+  font-size:24px;
+  margin-top:160px;
+  margin-bottom:0;
+}
+.md-typeset h4 {
+  color:#2094f3;
+  font-size:24px;
+  margin-top:160px;
+  margin-bottom:0;
+  font-weight:normal;
+}
+.md-typeset h3+h4 {
+  color:#2094f3;
+  font-size:24px;
+  margin-top:0.8em;
+  margin-bottom:0;
+  font-weight:normal;
+}
+.md-typeset h5 {
+  color:#2094f3;
+  font-size:16px;
+  line-height:2;
+  font-weight:bold;
+  margin-top:80px;
+  margin-bottom: 0;
+}
+.md-typeset h6 {
+  font-size:1px;
+  line-height:0;
+  margin: 0;
+  padding:0;}
+.md-typeset p {
+  margin-bottom:1.2em;
+  line-height:2;
+}
+.md-typeset strong {
+  font-weight:bold;
+  color:#2094f3;
+}
+.md-typeset sup {
+  font-size:0.6em;
+}
+.md-typeset sub {
+  font-size:0.6em;
+}
+
+:root {
+  --md-admonition-icon--tired: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM164.7 328.7c22-22 53.9-40.7 91.3-40.7s69.3 18.7 91.3 40.7c11.1 11.1 20.1 23.4 26.4 35.4c6.2 11.7 10.3 24.4 10.3 35.9c0 5.2-2.6 10.2-6.9 13.2s-9.8 3.7-14.7 1.8l-20.5-7.7c-26.9-10.1-55.5-15.3-84.3-15.3h-3.2c-28.8 0-57.3 5.2-84.3 15.3L149.6 415c-4.9 1.8-10.4 1.2-14.7-1.8s-6.9-7.9-6.9-13.2c0-11.6 4.2-24.2 10.3-35.9c6.3-12 15.3-24.3 26.4-35.4zm-31.2-182l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6c0-9 9.6-14.7 17.5-10.5zM396 157.1c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z"/></svg>')
+}
+.md-typeset .admonition.tired,
+.md-typeset details.tired {
+border-color:rgb(245,0,87);
+}
+.md-typeset .tired > .admonition-title,
+.md-typeset .tired > summary {
+background-color:rgba(245,0,87,0.1);
+}
+.md-typeset .tired > .admonition-title::before,
+.md-typeset .tired > summary::before {
+background-color:rgb(245,0,87);
+-webkit-mask-image: var(--md-admonition-icon--tired);
+        mask-image: var(--md-admonition-icon--tired);
+}
+:root {
+    --md-admonition-icon--gov: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>')
+}
+.md-typeset .admonition.gov,
+.md-typeset details.gov {
+  border-color:rgb(124,77,255);
+}
+.md-typeset .gov > .admonition-title,
+.md-typeset .gov > summary {
+  background-color:rgba(124,77,255,0.1);
+}
+.md-typeset .gov > .admonition-title::before,
+.md-typeset .gov > summary::before {
+  background-color:rgb(124,77,255);
+  -webkit-mask-image: var(--md-admonition-icon--gov);
+          mask-image: var(--md-admonition-icon--gov);
+}
+:root {
+  --md-admonition-icon--small: url()
+}
+.md-typeset .admonition.small,
+.md-typeset details.small {
+  border-color:#00000000;
+  box-shadow:none;
+}
+.md-typeset .small > .admonition-title,
+.md-typeset .small > summary {
+  background-color:#00000000;
+  box-shadow:none;
+}
+.md-typeset .small > .admonition-title::before,
+.md-typeset .small > summary::before {
+  background-color:#00000000;
+  box-shadow:none;
+  -webkit-mask-image: var(--md-admonition-icon--small);
+          mask-image: var(--md-admonition-icon--small);
+}
+
+@media only screen and (max-width: 767px) {
+  .base {
+    margin-right:0;
+    margin-left:0;
+  } 
+.md-typeset h1 {
+  margin-right:0;
+  margin-left:0;
+  font-size:24px;
+  margin-bottom:160px;
+  color:#2094f3;
+  }
+}
