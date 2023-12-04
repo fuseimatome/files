@@ -46,9 +46,9 @@ hr {
   margin-bottom: 0;
 }
 .md-typeset h6 {
-  font-size:1px;
+  font-size:0;
   line-height:0;
-  margin: 0;
+  margin:0;
   padding:0;}
 .md-typeset p {
   margin-bottom:1.2em;
