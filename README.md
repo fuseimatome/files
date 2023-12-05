@@ -2,7 +2,6 @@
 
 ## URL
   - https://houritsumondai.github.io/matome/
-  - https://github.com/houritsumondai/matome
 
 ## git
 ``` 
