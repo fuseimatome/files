@@ -4,6 +4,7 @@
 }
 hr {
   border: 2px solid #2094f3;
+  line-height:4px;
 }
 .md-typeset h1 {
   color:#2094f3;
