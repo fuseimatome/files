@@ -1,7 +1,7 @@
 # 設定メモ
 
 ## URL
-  - https://fuseimatome.github.io/matome/
+  - https://fuseimatome.github.io/files/
 
 ## git
 ``` 
