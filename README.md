@@ -1,7 +1,7 @@
 # 設定メモ
 
 ## URL
-  - https://houritsumondai.github.io/matome/
+  - https://fuseimatome.github.io/matome/
 
 ## git
 ``` 
