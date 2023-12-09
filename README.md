@@ -5,6 +5,6 @@
 
 ## git
 ``` 
-git remote set-url origin https://fuseimatome@github.com/hounomondai/files.git
+git remote set-url origin https://fuseimatome@github.com/fuseimatome/files.git
 git clone https://github.com/fuseimatome/files.git
 ```
