@@ -120,6 +120,31 @@ background-color:rgb(245,0,87);
   -webkit-mask-image: var(--md-admonition-icon--small);
           mask-image: var(--md-admonition-icon--small);
 }
+:root {
+  --md-admonition-icon--right: url()
+}
+.md-typeset .admonition.right,
+.md-typeset details.right {
+  border-color:#00000000;
+  box-shadow:none;
+  text-align:right;
+}
+.md-typeset .right > .admonition-title,
+.md-typeset .right > summary {
+  background-color:#00000000;
+  box-shadow:none;
+  text-align:right;
+}
+.md-typeset .right > .admonition-title::before,
+.md-typeset .right > summary::before {
+  background-color:#00000000;
+  box-shadow:none;
+  text-align:right;
+  -webkit-mask-image: var(--md-admonition-icon--right);
+          mask-image: var(--md-admonition-icon--right);
+}
+
+
 
 @media only screen and (max-width: 767px) {
   .base {
