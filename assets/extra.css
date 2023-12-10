@@ -20,6 +20,14 @@
   padding-left:3em;
   text-indent:-1em;
 }
+.hg-idt4 {
+  padding-left:4em;
+  text-indent:-1em;
+}
+.hg-idt23 {
+  padding-left:3em;
+  text-indent:-2em;
+}
 .idt {
   text-indent:1em;
 }
@@ -33,6 +41,10 @@
 }
 .idt3 {
   padding-left:3em;
+  text-indent:1em;
+}
+.idt4 {
+  padding-left:4em;
   text-indent:1em;
 }
 hr {
