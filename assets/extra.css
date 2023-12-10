@@ -2,6 +2,39 @@
   margin-right:64px;
   margin-left:64px;
 }
+.title {
+  margin-top:4em;
+  font-weight:bold;
+  padding-left:1em;
+  text-indent:-1em;
+}
+.hg-idt1 {
+  padding-left:1em;
+  text-indent:-1em;
+}
+.hg-idt2 {
+  padding-left:2em;
+  text-indent:-1em;
+}
+.hg-idt3 {
+  padding-left:3em;
+  text-indent:-1em;
+}
+.idt {
+  text-indent:1em;
+}
+.idt1 {
+  padding-left:1em;
+  text-indent:1em;
+}
+.idt2 {
+  padding-left:2em;
+  text-indent:1em;
+}
+.idt3 {
+  padding-left:3em;
+  text-indent:1em;
+}
 hr {
   border: 2px solid #2094f3;
   line-height:4px;
@@ -106,6 +139,8 @@ background-color:rgb(245,0,87);
 .md-typeset .admonition.file,
 .md-typeset details.file {
   border-color:rgb(221,221,221);
+  padding-right:2em;
+  padding-left:2em;
 }
 .md-typeset .file > .admonition-title,
 .md-typeset .file > summary {
